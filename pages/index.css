@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.home {
+    background-image: url(../img/fondo.jpg);
+    height: 616px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.welcome__titles {
+    text-align: center;
+    color:#FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.welcome__titles-big {
+    margin: 0;
+    font-size: 48px;
+
+}
+.welcome__titles-lil {
+    margin: 0;
+    font-size: 32px;
+}
+
+.presentation {
+    background-color: #141414;
+    padding: 55px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation__img {
+    height: 400px;
+    width: 300px;
+    margin: 0 50px 0 10px;
+    border-radius: 20px;
+    display: none;
+}
+@media (min-width: 796px) {
+    .presentation__img{
+        display: inherit;
+    }
+}
+
+.presentation__text {
+    text-align: center;
+    color: #FAFAFA;
+    max-width: 700px;
+}
+@media (min-width: 796px){
+    .presentation__text{
+        text-align: inherit;
+    }
+}
+
+.presentation__title {
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.presentation__about-me {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
