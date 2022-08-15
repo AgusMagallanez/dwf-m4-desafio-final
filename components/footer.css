@@ -1,0 +1,35 @@
+
+.footer__general-container{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(min-width: 796px){
+    .footer__general-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer__logo{
+    width: 149px;
+    height: 75px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.footer__sm-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer__sm-container > a{
+    text-decoration: none;
+    color:#DBDBDB;
+    font-family: "Poppins";
+    padding: 8px;
+}

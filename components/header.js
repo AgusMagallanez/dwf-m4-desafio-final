@@ -1,6 +1,6 @@
 function headerComponent(el){
-    const componentEl = document.createElement("div")
-    componentEl.innerHTML = `
+    const componentHeadEl = document.createElement("div")
+    componentHeadEl.innerHTML = `
     <header class="header">
     <a href="./index.html"> <img src="./img/logo.png" class="logo"></a>
     <div class="header__links">
@@ -23,7 +23,7 @@ function headerComponent(el){
     </div>
     </header>
     `
-    el.appendChild(componentEl);
+    el.appendChild(componentHeadEl);
     
     const menuOpen = document.querySelector(".header__menu-button");
     const menuEl = document.querySelector(".header__menu-display");
