@@ -6,9 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/header.css">
+
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./components/footer.css">
+
+    <script defer src="./pages/portfolio.js"></script>
+    <link rel="stylesheet" href="./pages/portfolio.css">
+
     
 </head>
 <body>
+    <div class="header"></div>
+
+<section class="portfolio">
+    <h2 class="portfolio__title">Portfolio</h2>
+<div class="portfolio-card-container"></div>
+
+</section>
+
+<template id="portfolio-template">
+    <div class="portfolio-card">
+        <img src="" alt="" class="card-img">
+        <h3 class="card-title">título</h3>
+        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, similique repudiandae deleniti dignissimos amet ab numquam obcaecati perspiciatis exercitationem perferendis labore aliquam, mollitia nesciunt autem accusantium maxime iure ipsum dolor.</p>
+        <a href="" class="card-url">ver más...</a>
+    </div>
+
+</template>
+
+    <div class="footer"></div>
+
     
 </body>
 </html>
