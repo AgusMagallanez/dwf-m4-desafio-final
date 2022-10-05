@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     max-height: 80px;
-    background-color: black;
+    background-color: #000;
     opacity: 80%;
 }
 

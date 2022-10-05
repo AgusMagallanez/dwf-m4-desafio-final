@@ -1,6 +1,6 @@
 function addCard(params = {}){
     const template = document.querySelector("#portfolio-template");
-    const templatesContainer = document.querySelector(".portfolio-card-container");
+    const templatesContainer = document.querySelector(".portfolio-card__container");
     
     template.content.querySelector(".card-img").src = params.image;
     template.content.querySelector(".card-title").textContent = params.title;
@@ -51,6 +51,8 @@ function main(){
         }
     });
 
+    headerComponent(document.querySelector(".portfolio-header-container"));
+    footerComponent(document.querySelector(".portfolio-footer-container"))
 
 }
 
