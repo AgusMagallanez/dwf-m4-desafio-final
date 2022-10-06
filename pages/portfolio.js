@@ -25,7 +25,6 @@ function getDataCMS(){
         return res.json();
     })
     .then((data) => {
-        console.log(data);
         const fields = data.items.map((item) =>{
             const imageId = item.fields.imagen.sys.id;
             const image = getImageData(imageId, data);

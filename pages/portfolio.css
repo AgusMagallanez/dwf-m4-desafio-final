@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: "poppins";
+    font-family: "poppins", sans-serif;
     margin: 0;
     font-size: 18px;    
 }
@@ -83,5 +83,4 @@ body{
     color: rgb(77, 79, 233);
     text-decoration: none;
     padding: 5px;
-
 }

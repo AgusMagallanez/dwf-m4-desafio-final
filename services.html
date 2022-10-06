@@ -6,9 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/header.css">
+
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./components/footer.css">
+
+    <script defer src="./pages/services.js"></script>
+    <link rel="stylesheet" href="./pages/services.css">
     
 </head>
 <body>
     
+    <div class="services-header__container"></div>
+
+<section class="services">
+    <div class="services-welcome__container">
+        <h2 class="services-welcome__title">Mis servicios</h2>
+    </div>
+    <div class="services-container">
+        <div class="services-card__container"></div>
+    </div>
+</section>
+
+<template id="services-template">
+    <div class="services-card">
+        <img src="" alt="" class="card-img">
+        <h3 class="card-title"></h3>
+        <p class="card-description"></p>
+    </div>
+</template>
+
+
+<div class="services-footer__container"></div>
+
 </body>
 </html>

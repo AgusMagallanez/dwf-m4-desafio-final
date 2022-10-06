@@ -5,7 +5,7 @@ function headerComponent(el){
     <a href="./index.html"> <img src="./img/logo.png" class="logo"></a>
     <div class="header__links">
       <a href="./portfolio.html">Portfolio</a>
-      <a href="./servicies.html">Servicios</a>
+      <a href="./services.html">Servicios</a>
       <a href="./contact.html">Contacto</a>
     </div>
     <button class="header__menu-button">
@@ -18,7 +18,7 @@ function headerComponent(el){
     <div class="header__menu-display">
       <img src="./img/x-mark.png" class="header__menu-xmark"> 
       <a href="./portfolio.html">Portfolio</a>
-      <a href="./servicies.html">Servicios</a>
+      <a href="./services.html">Servicios</a>
       <a href="./contact.html">Contacto</a>
     </div>
     </header>
