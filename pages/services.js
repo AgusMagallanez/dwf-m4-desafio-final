@@ -50,7 +50,7 @@ function main (){
     });
 
     headerComponent(document.querySelector(".services-header__container"));
-    footerComponent(document.querySelector(".services-footer__container"))
+    footerComponent(document.querySelector(".services-footer__container"));
 
 
 }

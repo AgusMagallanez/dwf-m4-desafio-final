@@ -6,9 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/header.css">
+
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./components/footer.css">
+
+    <script defer src="./pages/contact.js"></script>
+    <link rel="stylesheet" href="./pages/contact.css">
+
     
 </head>
 <body>
-    
+
+    <div class="contact-form-header__container"></div>
+
+    <form action="" class="contact-form">
+        <div class="contact-form__title-container">
+            <h2 class="contact-form__title">Escribime</h2>
+        </div>
+
+        <div class="contact-form__inputs-container">
+            <div class="contact-form__inputs">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div class="contact-form__inputs">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="contact-form__inputs">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div class="contact-form__inputs">
+                <button type="submit" class="button">Enviar</button>
+            </div>
+        </div>
+
+    </form>
+
+    <div class="contact-form-footer__container"></div>
 </body>
 </html>
