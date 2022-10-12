@@ -7,7 +7,7 @@ body{
     font-family: "poppins", sans-serif;
 }
 
-.contact-form{
+.contact-form__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@ body{
     background-color: black;
 }
 @media (min-width: 768px) {
-    .contact-form{
+    .contact-form__container{
         flex-direction: row;
         align-items: center;
         background: linear-gradient(#64b0e6, #91d8e5);
@@ -34,10 +34,6 @@ body{
     color: #fff;   
 }
 
-.contact-form__inputs-container{
-    padding: 20px;
-
-}
 
 .contact-form__inputs{
     display: flex;
@@ -49,4 +45,12 @@ body{
 
 .button{
 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
 } 
+
+.button:hover{
+    background-color: #1e1e1e;
+    color: white;
+
+}
