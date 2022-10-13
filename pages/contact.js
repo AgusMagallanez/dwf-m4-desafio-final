@@ -1,45 +1,13 @@
-function contactFormComponent(el){
-    const contactForm = document.createElement("form");
-    contactForm.classList.add("contact-form__container");
-    contactForm.innerHTML=`
-    <div class="contact-form__title-container">
-        <h2 class="contact-form__title">Escribime</h2>
-    </div>
+function addComponents(){
+    const header = document.querySelector(".contact-form-header__container");
 
-    <div class="contact-form__inputs-container">
-        <div class="contact-form__inputs">
-            <label for="name">Nombre</label>
-            <input type="text" name="name" id="name">
-        </div>
+    const contactForm = document.querySelector(".form-container");
 
-        <div class="contact-form__inputs">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email">
-        </div>
+    const footer = document.querySelector(".contact-form-footer__container");
 
-        <div class="contact-form__inputs">
-            <label for="message">Mensaje</label>
-            <textarea name="message" id="message"></textarea>
-        </div>
+    headerComponent(header);
+    footerComponent(footer);
+    contactFormComponent(contactForm);
+};
 
-        <div class="contact-form__inputs">
-            <button type="submit" class="button">Enviar</button>
-        </div>
-    </div>
-    `;
-
-    el.appendChild(contactForm);
-}
-
-
-function main(){
-
-    headerComponent(document.querySelector(".contact-form-header__container"));
-
-    footerComponent(document.querySelector(".contact-form-footer__container"));
-
-    contactFormComponent(document.querySelector(".form-container"));
-
-}
-
-main();
+addComponents();
