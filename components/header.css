@@ -37,6 +37,12 @@ body {
     color: #fff;
     text-decoration: none;
     font-family: Poppins;
+    padding: 3px;
+    transition: all 0.1s ease-in-out;
+
+}
+.header__links > a:hover{
+    transform: scale(1.3);
 }
 
 .header__menu-button{
@@ -73,7 +79,7 @@ body {
     right: 5%;
     left: 5%;
     bottom: 20%;
-    background-color: #fff;
+    background-color: #000;
     border-radius: 5px;   
     text-align: center;
 }
@@ -82,7 +88,14 @@ body {
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+}
+.header__menu-display > a:hover{
+    background-color: #5d5d5d;
+    color: white;
+    border-radius: 4px;
+    transform: scale(1.2);
 }
 
 .header__menu-xmark{

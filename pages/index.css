@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
+    color: #0000;
 }
 
 .home {
@@ -48,6 +49,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .presentation__img {
