@@ -76,12 +76,3 @@ body{
     text-align: center;
     color: #000;
 }
-
-.card-url{
-    display: block;
-    text-align: right;
-    color: rgb(77, 79, 233);
-    text-decoration: none;
-    padding: 5px;
-
-}

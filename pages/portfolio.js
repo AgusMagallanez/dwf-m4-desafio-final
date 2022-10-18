@@ -1,4 +1,4 @@
-function addCard(params = {}){
+function addCardPortfolio(params = {}){
     const template = document.querySelector("#portfolio-template");
     const templatesContainer = document.querySelector(".portfolio-card__container");
     
@@ -46,7 +46,7 @@ function getDataCMS(){
 function main(){
     getDataCMS().then(function(projects){
         for(const p of projects){
-            addCard(p);
+            addCardPortfolio(p);
         }
     });
 

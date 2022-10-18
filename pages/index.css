@@ -85,3 +85,68 @@ body {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
 }
+
+.services{
+    background-color: #000;
+}
+
+.services__title-container{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.services__title{
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    color: whitesmoke;
+
+}
+
+.services-container{
+    margin: 0;  
+    display: grid;
+    gap: 40px;
+    padding: 20px;
+    background-color: #000;
+}
+
+@media (min-width: 650px){
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 960px){
+    .services-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+.card-img{
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;    
+}
+
+.card-title{
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #FAFAFA;
+
+}
+
+.card-description{
+    margin: 0;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    color: #FAFAFA;
+
+}

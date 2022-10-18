@@ -1,4 +1,4 @@
-function addCard(params = {}){
+function addCardServices(params = {}){
     const template = document.querySelector("#services-template");
     const templatesContainer= document.querySelector(".services-card__container");
     
@@ -45,7 +45,7 @@ function main (){
 
     getDataCMS().then(function(services){
         for(const s of services){
-            addCard(s);
+            addCardServices(s);
         }
     });
 

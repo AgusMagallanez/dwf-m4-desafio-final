@@ -15,7 +15,7 @@ body{
     padding: 50px;
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #141414;
 }
 @media (min-width: 768px) {
     .contact-form__container{
