@@ -12,8 +12,7 @@ body{
     height: 300px;
     background: linear-gradient(rgba(0, 0, 0, 0.8), #fff);
 }
-
-@media (min-width: 960px){
+@media (min-width: 768px){
     .services-welcome__container{
         display: flex;
         align-items: center;
@@ -43,7 +42,7 @@ body{
     gap: 40px;
     padding: 20px;
 }
-@media (min-width: 650px){
+@media (min-width: 768px){
     .services-card__container{
         grid-template-columns: 1fr 1fr;
     }

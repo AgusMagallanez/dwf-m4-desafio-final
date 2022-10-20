@@ -9,9 +9,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    max-height: 80px;
-    background-color: #000;
-    opacity: 80%;
+    max-height: 100px;
+    background-color: rgb(0, 0, 0,0.8);
+
 }
 
 .logo{
@@ -27,7 +27,7 @@ body {
     margin: 20px;
     justify-content: space-between;
 }
-@media(min-width: 796px){
+@media(min-width: 650px){
     .header__links{
         display: flex;
     }
@@ -39,20 +39,9 @@ body {
     font-family: Poppins;
     padding: 3px;
     transition: all 0.1s ease-in-out;
-
 }
 .header__links > a:hover{
     transform: scale(1.3);
-}
-
-.header__menu-button{
-    background: none;
-    border: none;
-}
-@media(min-width: 796px){
-    .header__menu-button{
-        display: none;
-    }
 }
 
 .header__menu-container{
@@ -71,16 +60,26 @@ body {
     
 }
 
+.header__menu-button{
+    background: none;
+    border: none;
+}
+@media(min-width: 650px){
+    .header__menu-button{
+        display: none;
+    }
+}
+
 .header__menu-display{
     display: none;
     position: absolute;
     grid-template-rows: auto 1fr 1fr 1fr;
-    top: 5%;
-    right: 5%;
-    left: 5%;
+    top: 15%;
+    right: 10%;
+    left: 10%;
     bottom: 20%;
-    background-color: #000;
-    border-radius: 5px;   
+    background: radial-gradient(#414141, #121212);
+    border-radius: 10px;   
     text-align: center;
 }
 
@@ -89,19 +88,13 @@ body {
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     color: #fff;
-    transition: all 0.1s ease-in-out;
-}
-.header__menu-display > a:hover{
-    background-color: #5d5d5d;
-    color: white;
-    border-radius: 4px;
-    transform: scale(1.2);
 }
 
 .header__menu-xmark{
-    width: 90px;
-    height: 50px;
-    font-weight: 700px;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: #fff;
     justify-self: right;
-
 }

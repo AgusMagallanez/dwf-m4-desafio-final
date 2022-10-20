@@ -16,7 +16,7 @@ function headerComponent(el){
       </div>
     </button>
     <div class="header__menu-display">
-      <img src="./img/x-mark.png" class="header__menu-xmark"> 
+      <p class="header__menu-xmark">x</p> 
       <a href="./portfolio.html">Portfolio</a>
       <a href="./services.html">Services</a>
       <a href="./contact.html">Contact</a>
