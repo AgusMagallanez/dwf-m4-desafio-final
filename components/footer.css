@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .footer__general-container{
     background-color: rgb(0, 0, 0,0.8);
     padding: 20px;
