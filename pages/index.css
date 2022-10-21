@@ -46,7 +46,6 @@ body {
 .presentation {
     background-color: #141414;
     padding: 55px 32px;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,13 +76,17 @@ body {
     }
 }
 
+.presentation__text p{
+    margin: 0;
+}
+
 .presentation__title {
     font-size: 32px;
     font-family: "Montserrat", sans-serif;
 }
 
 .presentation__about-me {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
 
