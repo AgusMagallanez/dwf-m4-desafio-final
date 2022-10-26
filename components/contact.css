@@ -35,6 +35,16 @@ body{
     color: #fff;   
 }
 
+.contact-form__inputs-container{
+    width: 250px;    
+}
+@media (min-width: 768px){
+    .contact-form__inputs-container{
+        width: 300px;
+    }
+}
+
+
 .contact-form__inputs{
     display: flex;
     flex-direction: column;
@@ -45,7 +55,7 @@ body{
 
 }
 .contact-form__inputs textarea{
-    height: 80px;
+    height: 150px;
     resize: none;
 }
 
